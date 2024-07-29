@@ -51,7 +51,7 @@ jobs:
       - name: Upload Artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: SimpleI18n-${{ steps.prop_info.outputs.release_version }}-${{ env.SHORT_SHA }}
+          name: SimpleTools-${{ steps.prop_info.outputs.release_version }}-${{ env.SHORT_SHA }}
           path: |
             build/libs
 

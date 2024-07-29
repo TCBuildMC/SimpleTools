@@ -1,9 +1,9 @@
-# SimpleI18n
+# SimpleTools
 
-A java library for language localization/ internationalization.
+A java library provides some common utilities and tools.
 
 ## Add dependency
-[![](https://jitpack.io/v/TCBuildMC/SimpleI18n.svg)](https://jitpack.io/#TCBuildMC/SimpleI18n)
+[![](https://jitpack.io/v/TCBuildMC/SimpleTools.svg)](https://jitpack.io/#TCBuildMC/SimpleTools)
 
 Add these to your `build.gradle`:
 ```gradle
@@ -14,7 +14,7 @@ repositories {
 }
 
 dependencies {
-    implementation "com.github.TCBuildMC:SimpleI18n:{VERSION}"
+    implementation "com.github.TCBuildMC:SimpleTools:{VERSION}"
 }
 ```
 

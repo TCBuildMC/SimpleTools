@@ -1,4 +1,4 @@
-package xyz.tcbuildmc.common.i18n.lang.v0;
+package xyz.tcbuildmc.common.util.simpletools.i18n;
 
 import org.junit.jupiter.api.Test;
 
