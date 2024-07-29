@@ -22,9 +22,9 @@ import java.util.Map;
  * <p>
  * This is just split it out to a single library.
  */
-@Getter
-@Setter
 public class Translations {
+    @Getter
+    @Setter
     private static Map<String, String> translations = Collections.emptyMap();
 
     @NotNull
