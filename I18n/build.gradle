@@ -1,0 +1,16 @@
+dependencies {
+    api(project(":Config")) {
+        transitive false
+    }
+
+    api "commons-io:commons-io:2.16.1"
+}
+
+publishing {
+    publications {
+        create("MavenI18n", MavenPublication) {
+            from components.java
+            artifactId = project.archives_base_name
+        }
+    }
+}

@@ -1,6 +1,6 @@
 # SimpleTools
 
-A java library provides some common utilities and tools.
+A java library collection.
 
 ## Add dependency
 [![](https://jitpack.io/v/TCBuildMC/SimpleTools.svg)](https://jitpack.io/#TCBuildMC/SimpleTools)
@@ -14,11 +14,11 @@ repositories {
 }
 
 dependencies {
-    implementation "com.github.TCBuildMC:SimpleTools:{VERSION}"
+    implementation "com.github.TCBuildMC.SimpleTools:{SubProject}:{VERSION}"
 }
 ```
 
-Remember to replace `{VERSION}` with full version.
+Remember to replace `{VERSION}` with commit.
 
 ## Building
 This project is compatible with Java 8 at least, so please use Java 8 to build.

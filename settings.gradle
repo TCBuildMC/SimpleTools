@@ -1,2 +1,11 @@
-rootProject.name = 'lang-v0'
+def sub_projects = [
+        "Utilities",
+        "Config",
+        "I18n"
+]
 
+rootProject.name = "SimpleTools"
+
+sub_projects.forEach {
+    include it
+}
