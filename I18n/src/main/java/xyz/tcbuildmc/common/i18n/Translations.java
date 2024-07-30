@@ -111,7 +111,7 @@ public class Translations {
         return translations.containsKey(key);
     }
 
-    public static void addLanguageSupport(String lang) {
-        supportedLanguages.add(lang);
+    public static void addLanguageSupport(String... lang) {
+        Collections.addAll(supportedLanguages, lang);
     }
 }
