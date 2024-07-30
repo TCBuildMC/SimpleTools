@@ -1,4 +1,4 @@
-package xyz.tcbuildmc.common.util.function;
+package xyz.tcbuildmc.common.util.container;
 
 public interface Property<T extends Comparable<T>> {
     T get();
