@@ -8,7 +8,7 @@ dependencies {
     implementation "blue.endless:jankson:1.2.3"
 //    implementation "org.quiltmc:quilt-json5:1.0.4+final"
 //    implementation "org.dom4j:dom4j:2.1.4"
-    implementation "org.yaml:snakeyaml:2.2"
+    implementation "org.yaml:snakeyaml:2.3"
     implementation "com.moandjiezana.toml:toml4j:0.7.2"
 
     implementation "commons-io:commons-io:2.16.1"
