@@ -4,7 +4,7 @@ dependencies {
     implementation "com.fasterxml.jackson.dataformat:jackson-dataformat-toml:2.16.0"
     implementation "com.fasterxml.jackson.dataformat:jackson-dataformat-properties:2.16.0"
     implementation "com.google.code.gson:gson:2.11.0"
-    implementation "com.alibaba.fastjson2:fastjson2:2.0.52"
+    implementation "com.alibaba.fastjson2:fastjson2:2.0.53"
     implementation "blue.endless:jankson:1.2.3"
 //    implementation "org.quiltmc:quilt-json5:1.0.4+final"
 //    implementation "org.dom4j:dom4j:2.1.4"
